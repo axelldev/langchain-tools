@@ -4,7 +4,7 @@ from langchain_core.messages import HumanMessage
 from langchain_openai import ChatOpenAI
 from langchain_tavily import TavilySearch
 
-from models import AgentSearchResponse
+from models.models import AgentSearchResponse
 
 load_dotenv()
 
